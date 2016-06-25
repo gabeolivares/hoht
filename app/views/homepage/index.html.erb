@@ -1,0 +1,238 @@
+<!-- Nav -->
+<nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-custom" style="width:45px;">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-custom">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <%= link_to 'Home', root_path %>
+          </li>
+          <li>
+            <%= link_to 'Our Team', team_path %>
+          </li>
+          <li>
+            <%= link_to 'Featured Athletes', athletes_path %>
+          </li>
+          <li>
+            <%= link_to 'Workout and Prices', prices_path %>
+          </li>
+          <li>
+            <%= link_to "Videos", videos_path %>
+          </li>
+          <li>
+            <%= link_to 'Contact Us', contacts_path %>
+          </li>
+          <li>
+            <%= link_to 'Merchandise', merchandise_path %>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+<div class="homepage">
+  <div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<!--<h1>Heart Over Height Training</h1>-->
+								<p>Israel "EZ" Garcia</p>
+							</div>
+
+
+
+
+					</div>
+				</div>
+
+			<!-- Intro -->
+				<div id="intro-wrapper" class="wrapper style1">
+					<div class="title">
+
+            <a href="http://instagram.com/ezgarcia10?ref=badge" class="ig-b- ig-b-v-24" target="_blank"><%= image_tag("instagram.png") %></a>
+
+					</div>
+					<section id="intro" class="container">
+						<p class="style1">“Making athletes successful on and off the courts & fields through hard work and dedication”</p>
+						<ul class="actions">
+							<li>
+                <%= link_to 'Videos', videos_path,  class: 'button style3 big'%>
+              </li>
+						</ul>
+            <br>
+            <p class="style3">Fall in love with the process and the results will come</p>
+					</section>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+					<div class="title">The Details</div>
+					<div id="main" class="container">
+
+						<!-- Image -->
+						<center>
+							<a href="#" class="image featured">
+                <%= image_tag("HOHTlogo.png", style: "width:50%") %>
+							</a>
+						</center>
+						<!-- Features -->
+							<section id="features">
+								<header class="style1">
+									<h2>About Me</h2>
+									<p style="color:#000;">Israel "EZ" Garcia</p>
+								</header>
+								<div class="feature-list">
+									<p class="about-me-home">
+                    Israel “EZ” Garcia is an All Sport Fitness trainer who resides in San Antonio, Texas. Garcia is from
+                    Cotulla, Texas, a small town near the border of Texas and Mexico.  His goal and mission is to teach
+                    his clients several special techniques that he has acquired over the years. Garcia’s knowledge comes
+                    from numerous sources such, as certification classes, various camps, training with
+                    overseas players/nba skill trainers, and personal experience throughout high school &
+                    collegiate careers. He looks to instill athletes with the motivation to want to improve and to
+                     never become content, with hard work and dedication. Garcia takes great pride in building a
+                    personal relationship with each and every one of his athletes and clients by being a mentor to them.
+                    He is successful in this through his understanding of Psychology and teaches them how to be
+                     successful both on and off the court.
+                    A main aspect of Garcia’s training is helping athletes to gain the necessary confidence to become
+                    successful, so that when times are tough or a task seems too difficult they can believe in themselves
+                    even when no one else does. EZ specializes in weight training, speed, agility, ball handling, shooting,
+                    and how to be successful as an undersized point guard, lead off hitter and fielder, and how to catch the
+                     football and avoid tacklers through various cuts.  Garcia’s passion for sports started at an early age
+                     and he has been working to become the best he can be ever since. He takes tremendous pride in
+                    conditioning and working hard to achieve all his goals, and expects his clients to do the same.
+                     EZ Garcia is a young motivated trainer who will take your game to the next level as he can connect
+                     with ALL athletes and clients making him a one of a kind all around trainer…
+                  </p>
+                  <br>
+                <center>
+                  <%= image_tag("ezhome.JPG", style: "width:20%") %>
+                </center>
+                </div>
+								<ul class="actions actions-centered">
+									<li>
+                      <%= link_to 'More Info', team_path,  class: 'button style1 big'%>
+                  </li>
+								</ul>
+							</section>
+
+					</div>
+				</div>
+
+			<!-- Highlights -->
+				<div class="wrapper style3">
+					<div class="title">Learn More</div>
+					<div id="highlights" class="container">
+						<div class="row 150%">
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<div class="image featured"><%= image_tag("featured-ath-home.jpg") %></div>
+									<h3>Featured Athletes</h3>
+									<p>Here are some featured Heart Over Height athletes.</p>
+									<ul class="actions">
+										<li>
+                      <%= link_to 'Featured Athletes', athletes_path, class: 'button style1'  %>
+                    </li>
+									</ul>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<div class="image featured"><%= image_tag("workout-prices-home.JPG") %></div>
+									<h3>Workout and Prices</h3>
+									<p>We offer all types of individual and group workouts base on your sport.</p>
+									<ul class="actions">
+										<li>
+                      <%= link_to 'Workout and Prices', prices_path, class: 'button style1'  %>
+                    </li>
+									</ul>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<div class="image featured"><%= image_tag("videos-home.JPG") %></div>
+									<h3>Videos</h3>
+									<p>See the Heart Over Height Training Videos and see how we train our athletes.</p>
+									<ul class="actions">
+										<li>
+                        <%= link_to "Videos", videos_path, class: 'button style1' %>
+                    </li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+    </div>
+</div>
+<!-- Footer -->
+				<div id="footer-wrapper" class="wrapper">
+					<div class="title">Contact</div>
+					<div id="footer" class="container">
+						<div class="row 150%">
+							<div class="12u 12u(mobile)">
+
+								<!-- Contact -->
+									<section class="feature-list small">
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-home">Mailing Address</h3>
+													<p>
+														Heart Over Height Training<br />
+														San Antonio, Texas
+													</p>
+												</section>
+											</div>
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-comment">Social</h3>
+													<p>
+														<a href="#">@untitled-corp</a><br />
+														<a href="#">linkedin.com/untitled</a><br />
+														<a href="#">facebook.com/untitled</a>
+													</p>
+												</section>
+											</div>
+										</div>
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-envelope">Email</h3>
+													<p>
+                            <%= mail_to('ezghoht@gmail.com') %>
+													</p>
+												</section>
+											</div>
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-phone">Phone</h3>
+													<p>
+														(210) 445-9121
+													</p>
+												</section>
+											</div>
+										</div>
+
+									</section>
+
+							</div>
+						</div>
+						<hr />
+					</div>
+					<div id="copyright">
+						<ul>
+							<li>&copy; Heart Over Height Training</li>
+						</ul>
+					</div>
+				</div>
+		</div>
