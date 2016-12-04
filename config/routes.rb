@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
 
 
+  get 'blog/index'
+
+  get 'about/index'
+
   get 'contacts/index'
 
   get 'homepage/index'
   root 'homepage#index'
+  #About
+  get 'about', to: 'about#index'
 
   #Team
   get 'team', to: 'team#index'
@@ -19,7 +25,7 @@ Rails.application.routes.draw do
   get 'videos', to: 'videos#index'
 
   #Contacts
-  get 'contacts', to: 'contacts#index'
+  get 'blog', to: 'blog#index'
 
   #merchandise
   get 'merchandise', to: 'merchandise#index'
