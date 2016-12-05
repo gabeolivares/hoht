@@ -130,7 +130,25 @@
 .max-cherry-pic{
   width:180px
 }
+.twit-video{
+    overflow-y: scroll;
+    height:300px;
+}
+.youtube-video{
+  width: 400px;
+  height:250px
+}
+.becky-ez{
+  width:320px;
+}
+.ez-team{
+  width: 400px
+}
 @media only screen and (max-device-width: 480px) {
+  .youtube-video{
+    width: 200px;
+    height:150px
+  }
   .college-career
   {
     padding-right:10%;
@@ -164,6 +182,21 @@
     overflow-x: scroll;
     width:300px;
   }
+  .twit-video{
+      overflow-y: scroll;
+      height:300px;
+      width:275px;
+  }
+  .twitter-tweet{
+    width:200px;
+  }
+  .becky-ez{
+    width:220px;
+  }
+  .ez-team{
+    width: 250px;
+  }
+
 }
 
   @media (max-width: 991px) {
