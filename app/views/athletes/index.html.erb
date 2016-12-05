@@ -16,6 +16,9 @@
             <%= link_to 'Home', root_path %>
           </li>
           <li>
+            <%= link_to 'About Me', about_path %>
+          </li>
+          <li>
             <%= link_to 'Our Team', team_path %>
           </li>
           <li class="active">
@@ -43,32 +46,118 @@
 				<div id="header-wrapper" class="wrapper">
 					<div id="header">
 
-						<!-- Logo -->
-							<div id="logo">
-
-								<p>Meet Our Athletes</p>
-							</div>
 					</div>
 				</div>
 
 			<!-- Main -->
 				<div class="wrapper style1">
-					<div class="title">Featured Atheltes</div>
 					<div id="main" class="container">
-
 						<!-- Content -->
 							<div id="content">
 								<article class="box post">
-									<header class="style1">
-										<h2>HOHT Atheletes</h2>
-									</header>
-
                   <br>
-                  <center>
-                    <p>Coming Soon!
-                     </p>
-                  </center>
-
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-4" style="padding-top:5%;">
+                          <%= image_tag("amber.jpg", class: "amber-ramirez-pic") %>
+                      </div>
+                      <div class="col-sm-4" style="padding-top:5%;">
+                        <b>Amber Ramirez</b>
+                        </br>
+                        Age: 18
+                        </br>
+                        Height: 5'9
+                        </br>
+                        Position: Combo Guard
+                        </br>
+                        High School: Karen Wagner San Antonio
+                        </br>
+                        AAU: SA Finest
+                        </br>
+                        College: Texas Christian University
+                      </div>
+                      <div class="col-sm-4" style="text-align:center;">
+                        <div style="overflow-y: scroll; height:200px;">
+                          <p><i></i></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4" style="padding-top:5%;text-align:center;">
+                          <%= image_tag("leslie.jpeg", style: "width:220px") %>
+                      </div>
+                      <div class="col-sm-4" style="padding-top:5%;">
+                        <b>Leslie Vorpahl</b>
+                        </br>
+                        Age: 21
+                        </br>
+                        Height: 5'6
+                        </br>
+                        Position: PG/SG
+                        </br>
+                        High School: Winston Churchill San Antonio
+                        </br>
+                        AAU: SA Heat
+                        </br>
+                        College: Tulane University
+                      </div>
+                      <div class="col-sm-4" style="text-align:center;">
+                        <div style="overflow-y: scroll; height:200px;">
+                          <p><i></i></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4" style="padding-top:5%;text-align:center;">
+                          <%= image_tag("ashleyroser.jpg", style: "width:220px") %>
+                      </div>
+                      <div class="col-sm-4" style="padding-top:5%;">
+                        <b>Ashley Roser</b>
+                        </br>
+                        Age: 24
+                        </br>
+                        Height: 5'10
+                        </br>
+                        Position: G/F
+                        </br>
+                        High School: Camden New York
+                        </br>
+                        College: Wells College
+                      </div>
+                      <div class="col-sm-4" style="text-align:center;">
+                        <div class="mobile-bio">
+                          <p><i>
+                            <a href="http://www.neacsports.com/sports/wbkb/2013-14/releases/14-02-13_WEL_Roser_All-Time_NEAC_Scoring_Leader" target="_blank">Ashley Roser Breaks NEAC All-Time Career Points Record</a>
+                          </i></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4" style="padding-top:5%;text-align:center;">
+                          <%= image_tag("TorresAlexia.jpg", style: "width:220px") %>
+                      </div>
+                      <div class="col-sm-4" style="padding-top:5%;">
+                        <b>Alexia Torres</b>
+                        </br>
+                        Age: 18
+                        </br>
+                        Height: 5'4
+                        </br>
+                        Position: Point Guard
+                        </br>
+                        High School: Incarnate Word San Antonio
+                        </br>
+                        College: St. Mary's University
+                      </div>
+                      <div class="col-sm-4" style="text-align:center;">
+                        <div style="overflow-y: scroll; height:300px;">
+                          <p><i>
+                            <iframe class="alexia-video" src="https://www.youtube.com/embed/qms5az0uxnA" frameborder="0" allowfullscreen></iframe>
+                          </i></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 								</article>
 								<div class="row 150%">
 								</div>
@@ -117,65 +206,64 @@
 
 			<!-- Footer -->
       <!-- Footer -->
-              <div id="footer-wrapper" class="wrapper">
-                <div class="title">Contact</div>
-                <div id="footer" class="container">
-                  <div class="row 150%">
-                    <div class="12u 12u(mobile)">
+      <div id="footer-wrapper" class="wrapper">
+        <div class="title">Contact</div>
+        <div id="footer" class="container">
+          <div class="row 150%">
+            <div class="12u 12u(mobile)">
 
-                      <!-- Contact -->
-                        <section class="feature-list small">
-                          <div class="row">
-                            <div class="6u 12u(mobile)">
-                              <section>
-                                <h3 class="icon fa-home">Mailing Address</h3>
-                                <p>
-                                  Heart Over Height Training<br />
-                                  San Antonio, Texas
-                                </p>
-                              </section>
-                            </div>
-                            <div class="6u 12u(mobile)">
-                              <section>
-                                <h3 class="icon fa-comment">Social</h3>
-                                <p>
-                                  <a href="#">@untitled-corp</a><br />
-                                  <a href="#">linkedin.com/untitled</a><br />
-                                  <a href="#">facebook.com/untitled</a>
-                                </p>
-                              </section>
-                            </div>
+              <!-- Contact -->
+                <section class="feature-list small">
+                  <div class="row">
+                    <div class="6u 12u(mobile)">
+                      <section>
+                        <h3 class="icon fa-home">Mailing Address</h3>
+                        <p>
+                          511 W. Kings Hwy<br />
+                          Heart Over Height Training<br />
+                          San Antonio, Texas 78212
+                        </p>
+                      </section>
+                    </div>
+                    <div class="6u 12u(mobile)">
+                      <section>
+                        <h3 class="icon fa-comment">Social</h3>
+                        <p>
+                          <div id="twitter-timeline" style="max-height:300px;max-width:300px;overflow: scroll;">
+                            <a class="twitter-timeline" href="https://twitter.com/ezgarcia10" data-width="300px">Tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                           </div>
-                          <div class="row">
-                            <div class="6u 12u(mobile)">
-                              <section>
-                                <h3 class="icon fa-envelope">Email</h3>
-                                <p>
-                                  <%= mail_to('ezghoht@gmail.com') %>
-                                </p>
-                              </section>
-                            </div>
-                            <div class="6u 12u(mobile)">
-                              <section>
-                                <h3 class="icon fa-phone">Phone</h3>
-                                <p>
-                                  (210) 445-9121
-                                </p>
-                              </section>
-                            </div>
-                          </div>
-
-                        </section>
-
+                        </p>
+                      </section>
                     </div>
                   </div>
-                  <hr />
-                </div>
-                <div id="copyright">
-                  <ul>
-                    <li>&copy; Heart Over Height Training</li>
-                  </ul>
-                </div>
-              </div>
+                  <div class="row">
+                    <div class="6u 12u(mobile)">
+                      <section>
+                        <h3 class="icon fa-envelope">Email</h3>
+                        <p>
+                          <%= mail_to('ezghoht@gmail.com') %>
+                        </p>
+                      </section>
+                    </div>
+                    <div class="6u 12u(mobile)">
+                      <section>
+                        <h3 class="icon fa-phone">Phone</h3>
+                        <p>
+                          Business: (210) 445-9121
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                </section>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div id="copyright">
+          <ul>
+            <li>&copy; Heart Over Height Training</li>
+          </ul>
+        </div>
+      </div>
           </div>
 </div>

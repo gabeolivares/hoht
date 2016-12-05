@@ -16,6 +16,9 @@
             <%= link_to 'Home', root_path %>
           </li>
           <li>
+            <%= link_to 'About Me', about_path %>
+          </li>
+          <li>
             <%= link_to 'Our Team', team_path %>
           </li>
           <li>
@@ -30,7 +33,7 @@
           <li>
             <%= link_to 'Blog', blog_path %>
           </li>
-          <li class="active">
+          <li  class="active">
             <%= link_to 'Merchandise', merchandise_path %>
           </li>
         </ul>
@@ -116,65 +119,64 @@
 
 			<!-- Footer -->
       <!-- Footer -->
-              <div id="footer-wrapper" class="wrapper">
-                <div class="title">Contact</div>
-                <div id="footer" class="container">
-                  <div class="row 150%">
-                    <div class="12u 12u(mobile)">
+      <div id="footer-wrapper" class="wrapper">
+        <div class="title">Contact</div>
+        <div id="footer" class="container">
+          <div class="row 150%">
+            <div class="12u 12u(mobile)">
 
-                      <!-- Contact -->
-                        <section class="feature-list small">
-                          <div class="row">
-                            <div class="6u 12u(mobile)">
-                              <section>
-                                <h3 class="icon fa-home">Mailing Address</h3>
-                                <p>
-                                  Heart Over Height Training<br />
-                                  San Antonio, Texas
-                                </p>
-                              </section>
-                            </div>
-                            <div class="6u 12u(mobile)">
-                              <section>
-                                <h3 class="icon fa-comment">Social</h3>
-                                <p>
-                                  <a href="#">@untitled-corp</a><br />
-                                  <a href="#">linkedin.com/untitled</a><br />
-                                  <a href="#">facebook.com/untitled</a>
-                                </p>
-                              </section>
-                            </div>
+              <!-- Contact -->
+                <section class="feature-list small">
+                  <div class="row">
+                    <div class="6u 12u(mobile)">
+                      <section>
+                        <h3 class="icon fa-home">Mailing Address</h3>
+                        <p>
+                          511 W. Kings Hwy<br />
+                          Heart Over Height Training<br />
+                          San Antonio, Texas 78212
+                        </p>
+                      </section>
+                    </div>
+                    <div class="6u 12u(mobile)">
+                      <section>
+                        <h3 class="icon fa-comment">Social</h3>
+                        <p>
+                          <div id="twitter-timeline" style="max-height:300px;max-width:300px;overflow: scroll;">
+                            <a class="twitter-timeline" href="https://twitter.com/ezgarcia10" data-width="300px">Tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                           </div>
-                          <div class="row">
-                            <div class="6u 12u(mobile)">
-                              <section>
-                                <h3 class="icon fa-envelope">Email</h3>
-                                <p>
-                                  <%= mail_to('ezghoht@gmail.com') %>
-                                </p>
-                              </section>
-                            </div>
-                            <div class="6u 12u(mobile)">
-                              <section>
-                                <h3 class="icon fa-phone">Phone</h3>
-                                <p>
-                                  (210) 445-9121
-                                </p>
-                              </section>
-                            </div>
-                          </div>
-
-                        </section>
-
+                        </p>
+                      </section>
                     </div>
                   </div>
-                  <hr />
-                </div>
-                <div id="copyright">
-                  <ul>
-                    <li>&copy; Heart Over Height Training</li>
-                  </ul>
-                </div>
-              </div>
+                  <div class="row">
+                    <div class="6u 12u(mobile)">
+                      <section>
+                        <h3 class="icon fa-envelope">Email</h3>
+                        <p>
+                          <%= mail_to('ezghoht@gmail.com') %>
+                        </p>
+                      </section>
+                    </div>
+                    <div class="6u 12u(mobile)">
+                      <section>
+                        <h3 class="icon fa-phone">Phone</h3>
+                        <p>
+                          Business: (210) 445-9121
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                </section>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div id="copyright">
+          <ul>
+            <li>&copy; Heart Over Height Training</li>
+          </ul>
+        </div>
+      </div>
           </div>
 </div>

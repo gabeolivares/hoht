@@ -111,6 +111,60 @@
     color: #FFF !important;
     background-color: #2B2B2B !important;
 }
+.mobile-video {
+  width: 320px;
+  height: 300px;
+}
+.alexia-video{
+  width: 320px;
+  height: 300px;
+}
+
+.amber-ramirez-pic{
+  width:350px;
+}
+.mobile-bio{
+  overflow-y: scroll;
+  height:200px;
+}
+.max-cherry-pic{
+  width:180px
+}
+@media only screen and (max-device-width: 480px) {
+  .college-career
+  {
+    padding-right:10%;
+  }
+  .mobile-video {
+    width: 320px;
+    height: 250px;
+  }
+  .alexia-video{
+    width: 240px;
+    height: 200px;
+  }
+  .amber-ramirez-pic{
+    width:250px;
+  }
+  .mobile-bio{
+    overflow-y: scroll;
+    height:200px;
+    width:250px;
+  }
+  .our-vision{
+    padding-right:10%;
+  }
+  .max-cherry-pic{
+    width:150px
+  }
+  .gabe-olivares-pic{
+    width:140px;
+  }
+  .linkedin-mobile{
+    overflow-x: scroll;
+    width:300px;
+  }
+}
 
   @media (max-width: 991px) {
     .navbar-header {
