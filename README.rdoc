@@ -1,3 +1,3 @@
-Heart Over Height Training Website for client EZ Garcia -UNACTIVE
+Heart Over Height Training Website for client EZ Garcia -INACTIVE
 
 Details: Using CSS, JAVASCRIPT, and ROR built a website for Ez Garcia's Heart Over Height training business.
